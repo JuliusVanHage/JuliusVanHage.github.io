@@ -1,0 +1,51 @@
+
+h1.titel:hover {
+  color: orangered;
+}
+body{
+  font-family: Verdana;
+  background-image: url("https://www.klimhalamsterdam.nl/wp-content/uploads/BackgroundMain.jpg");
+  padding: 50px;
+}
+h1.titel {
+  color: firebrick;
+  font-size:40px;
+  text-align: right;
+}
+p.p1 {
+  border:double 8px rgb(130, 182, 26);
+  color: rgb(241, 137, 0);
+}
+p.p1:hover{
+  background-color: olivedrab;
+}
+p.p2 {
+  border:double 8px rgb(114, 168, 5);
+  color: rgb(224, 96, 10);
+}
+p.p2:hover{
+  background-color: olivedrab;
+}
+h2 {
+  color:firebrick;
+}
+p.p3 {
+  border:double 8px rgb(142, 194, 38);
+  color: rgba(189, 174, 89, 0.096);
+}
+p.p3:hover {
+  color: rgb(220, 137, 0);
+  background-color: rgb(73, 105, 9)
+}
+button {
+  color: darkgreen;
+  background-color: rgb(241, 137, 0);
+}
+th,td{
+border: dashed 5px rgb(224, 96, 10);
+color: green;
+font-size: 20px;
+}
+table{
+  border-collapse: collapse;
+}
