@@ -1,0 +1,31 @@
+let antwoord = prompt("Zit jij op klimmen");
+  if (antwoord == "ja"){
+    alert("Ik ook");
+  }
+  else if (antwoord == "nee"){
+    alert("Ik wel");
+  }
+  else{
+   alert("Dit begrijp ik niet, is dit fout gespeld?");
+  }
+
+let th1 = document.getElementById("th1");
+let td1 = document.getElementById("td1");
+let td2 = document.getElementById("td2");
+let td3 = document.getElementById("td3");
+let knop = document.getElementById("knopje");
+
+
+knop.addEventListener("click", tabel);
+
+
+
+function tabel (){
+  
+  th1.innerHTML = "geboortedatum"
+  td1.innerHTML = "1993"
+  td2.innerHTML = "1993"
+  td3.innerHTML = "1985"
+  knop.innerHTML = "Tabel geüpgradet"
+
+}
