@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML_en_CSS-1_eindopdr.</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <h1 class = "titel">Klimmen&boulderen</h1>
+    <h2>klimmen</h2>
+    <p class = p1>Klimmen is het klimmen aan een touw. Een klimroute kan dan ook erg hoog, maar toch veilig zijn, omdat je aan een touw vast zit.
+    Bij klimmer is er één klimmer en één zekeraar. De klimmer klimt naar boven, en de zekeraar heeft een speciaal aparaat waarmee hij het toew strak houd. Als de zekeraar niks doet val je helemaal naar beneden. Bepaalde apparaten (zoals een grigri) voorkomen dit, maar andere niet. Een zekeraar moet dus goed opletten.</p>
+    <h2>Boulderen</h2>
+    <p class = p2>
+      Boulderen is het klimmen zonder touw. Dit klinks erg gevaarlijk, maar dat is het niet, want boulderen is veel lager (max. 5m) en met een dikke valmat. Er zijn in Nederland meer plekken waar je kunt boulderen dan klimmen. Deze plakken heten boulderhallen.
+    </p>
+    <h2 class = no3>Natuurklimmen </h2>
+    <p class = "p3">
+      In Nederland klim je in klimhallen met grepen. In de meeste landen is dit niet zo. Daar klim en boulder je op echte rots. Dit kan gevaarlijker zijn, omdat de rots kan breken. 
+      Klimmen is ook ontstaan uit klimmen op rosten. Eerst deden mensen dat omdat ze bijv. boven op een berg wilden zijn, maar later werd het een echt sport en kwamen er 'nep' klimmhallen in Nederland.
+    </p> 
+    <button id = "knopje">Upgrade tabel</button>
+    <h2>De beste klimmers</h2>
+    <table >
+      
+      <tr>
+        <th>plaats</th>
+        <th>naam</th>
+        <th id = "th1">.</th>
+      </tr> 
+      
+      <tr> 
+       <td>1</td>
+       <td>Adam Ondra</td>
+       <td id = "td1">.</td>
+      </tr>
+      
+      <tr>
+        <td>2</td>
+        <td>Alexander Megos</td>
+        <td id = "td2">.</td>
+      </tr>
+      
+      <tr>
+        <td>3</td>
+        <td>Alex Honnold</td>
+        <td id = "td3">.</td>
+      </tr>
+    
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
